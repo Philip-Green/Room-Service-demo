@@ -41,7 +41,7 @@ public class encounterTracker : MonoBehaviour
     {
         for (int i = keepTrack; i <= monsterArray.Length; i--)
         {
-            Debug.Log("You've encountered a monster");
+            //Debug.Log("You've encountered a monster");
             //have the UI ex-out one of the numbers from the encounter bar.  
             if (keepTrack == 0) 
             {

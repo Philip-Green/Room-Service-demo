@@ -17,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/YouWon.unity
     guid: b44560ed576ba6348a2cf5078305517a
+  - enabled: 1
+    path: Assets/Scenes/Teleport.unity
+    guid: dafe91652c4eb38488bb54a741fb5020
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}

@@ -7,6 +7,7 @@ TagManager:
   - CinemachineTarget
   - spawnPoint
   - key
+  - Teleporter
   layers:
   - Default
   - TransparentFX
