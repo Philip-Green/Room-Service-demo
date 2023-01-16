@@ -8,7 +8,7 @@ public class SceneChange : MonoBehaviour
     // Start is called before the first frame update
     public void LoadSceneWithIntegerID(int whichScene)
     {
-        Debug.Log("Reload clicked");
+        //Debug.Log("Reload clicked");
         SceneManager.LoadScene(whichScene);
     }
     public void Exit()

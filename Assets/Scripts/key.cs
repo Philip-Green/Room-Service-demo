@@ -24,7 +24,7 @@ public class key : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("Hit");
+            //Debug.Log("Hit");
             //SceneManager.LoadScene(3);
             sceneChange.LoadSceneWithIntegerID(3);
 

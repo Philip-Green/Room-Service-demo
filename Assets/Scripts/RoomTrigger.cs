@@ -19,7 +19,7 @@ public class RoomTrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        col = GetComponent<Collider>();
+        col = GetComponent<Collider>();// gets a component if none exists. 
         
     }
 
@@ -35,7 +35,7 @@ public class RoomTrigger : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("Player has entered Room " + roomNumber); //Just a check. 
+            //Debug.Log("Player has entered Room " + roomNumber); //Just a check. 
             if (Random.value > mChance) //This determines a monster spawn. 
             {
                 man.SpawnEnemyAtLocation(spawnPoint);
@@ -45,7 +45,7 @@ public class RoomTrigger : MonoBehaviour
             }
             else
             {
-                Debug.Log("phew...");
+                //Debug.Log("phew...");
                 if(other.tag== "Player")
                 {
                     if (Random.value > kChance)

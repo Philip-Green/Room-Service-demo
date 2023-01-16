@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Teleportal : MonoBehaviour
 {
@@ -10,11 +12,30 @@ public class Teleportal : MonoBehaviour
     private SceneChange sceneChange;
     // Start is called before the first frame update
 
-    public void OnTriggerEnter(Collider collision)
+
+    void Start()
     {
-        if (collision.gameObject.CompareTag("Teleporter"))
+        sceneChange = GameObject.Find("SceneChange").GetComponent<SceneChange>();
+        //TeleportTo= GameObject.Find("Teleportal2").GetComponent<GameObject>();
+
+
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
         {
-            Debug.Log("This is a check.");
+            //Debug.Log("This is a check.");
+            sceneChange.LoadSceneWithIntegerID(4);
+            //TeleportTo.SetActive(true);
+
         }
     }
 }
