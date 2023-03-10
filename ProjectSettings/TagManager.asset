@@ -8,6 +8,7 @@ TagManager:
   - spawnPoint
   - key
   - Teleporter
+  - Donut
   layers:
   - Default
   - TransparentFX

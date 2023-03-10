@@ -5162,6 +5162,18 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 9005220659476430821, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.16037738
+      objectReference: {fileID: 0}
+    - target: {fileID: 9005220659476430821, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.16037738
+      objectReference: {fileID: 0}
+    - target: {fileID: 9005220659476430821, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.16037738
+      objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430823, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_Name
       value: MainCamera
@@ -5518,8 +5530,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7169812, g: 0.4901978, b: 0.46445945, a: 1}
-  m_Intensity: 6
+  m_Color: {r: 0.111249514, g: 0.4703518, b: 0.7075472, a: 1}
+  m_Intensity: 12
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -5661,8 +5673,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7169812, g: 0.4901978, b: 0.46445945, a: 1}
-  m_Intensity: 6
+  m_Color: {r: 0.111249514, g: 0.4703518, b: 0.7075472, a: 1}
+  m_Intensity: 12
   m_Range: 4.048218
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -10886,8 +10898,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7169812, g: 0.4901978, b: 0.46445945, a: 1}
-  m_Intensity: 6
+  m_Color: {r: 0.111249514, g: 0.4703518, b: 0.7075472, a: 1}
+  m_Intensity: 12
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -11360,8 +11372,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7169812, g: 0.4901978, b: 0.46445945, a: 1}
-  m_Intensity: 6
+  m_Color: {r: 0.111249514, g: 0.4703518, b: 0.7075472, a: 1}
+  m_Intensity: 12
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -16491,8 +16503,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7169812, g: 0.4901978, b: 0.46445945, a: 1}
-  m_Intensity: 6
+  m_Color: {r: 0.111249514, g: 0.4703518, b: 0.7075472, a: 1}
+  m_Intensity: 12
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -26611,8 +26623,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7169812, g: 0.4901978, b: 0.46445945, a: 1}
-  m_Intensity: 6
+  m_Color: {r: 0.111249514, g: 0.4703518, b: 0.7075472, a: 1}
+  m_Intensity: 12
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -26825,8 +26837,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7169812, g: 0.4901978, b: 0.46445945, a: 1}
-  m_Intensity: 6
+  m_Color: {r: 0.111249514, g: 0.4703518, b: 0.7075472, a: 1}
+  m_Intensity: 12
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -27001,8 +27013,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7169812, g: 0.4901978, b: 0.46445945, a: 1}
-  m_Intensity: 6
+  m_Color: {r: 0.111249514, g: 0.4703518, b: 0.7075472, a: 1}
+  m_Intensity: 12
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -27095,8 +27107,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7169812, g: 0.4901978, b: 0.46445945, a: 1}
-  m_Intensity: 6
+  m_Color: {r: 0.111249514, g: 0.4703518, b: 0.7075472, a: 1}
+  m_Intensity: 12
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -27189,8 +27201,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7169812, g: 0.4901978, b: 0.46445945, a: 1}
-  m_Intensity: 6
+  m_Color: {r: 0.111249514, g: 0.4703518, b: 0.7075472, a: 1}
+  m_Intensity: 12
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -27610,8 +27622,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7169812, g: 0.4901978, b: 0.46445945, a: 1}
-  m_Intensity: 6
+  m_Color: {r: 0.111249514, g: 0.4703518, b: 0.7075472, a: 1}
+  m_Intensity: 12
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -27704,8 +27716,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7169812, g: 0.4901978, b: 0.46445945, a: 1}
-  m_Intensity: 6
+  m_Color: {r: 0.111249514, g: 0.4703518, b: 0.7075472, a: 1}
+  m_Intensity: 12
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -27845,23 +27857,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
   m_PrefabInstance: {fileID: 146114522}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1732379606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1705696172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: d36c7535f34032e45baf240065c89825, type: 2}
-  isGlobal: 1
-  blendDistance: 0
-  weight: 1
-  priority: 0
 --- !u!1 &1804098306
 GameObject:
   m_ObjectHideFlags: 0
@@ -27890,8 +27885,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7169812, g: 0.4901978, b: 0.46445945, a: 1}
-  m_Intensity: 6
+  m_Color: {r: 0.111249514, g: 0.4703518, b: 0.7075472, a: 1}
+  m_Intensity: 12
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -27984,8 +27979,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7169812, g: 0.4901978, b: 0.46445945, a: 1}
-  m_Intensity: 6
+  m_Color: {r: 0.111249514, g: 0.4703518, b: 0.7075472, a: 1}
+  m_Intensity: 12
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
